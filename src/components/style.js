@@ -24,14 +24,16 @@ export default StyleSheet.create({
   },
   tooltip: {
     position: 'absolute',
-    paddingTop: 15,
-    paddingHorizontal: 15,
+    paddingTop: 16,
+    paddingHorizontal: 16,
     backgroundColor: '#fff',
-    borderRadius: 3,
+    borderRadius: 8,
     overflow: 'hidden',
   },
   tooltipText: {
-
+    fontSize: 16,
+    fontFamily: 'HK Grotesk',
+    color: 'rgb(37, 57, 78)',
   },
   tooltipContainer: {
     flex: 1,
@@ -50,18 +52,24 @@ export default StyleSheet.create({
     borderWidth: 2,
     borderRadius: STEP_NUMBER_RADIUS,
     borderColor: '#FFFFFF',
-    backgroundColor: '#27ae60',
+    backgroundColor: 'rgba(0, 123, 255, 1)',
   },
   stepNumberText: {
     fontSize: 10,
     backgroundColor: 'transparent',
     color: '#FFFFFF',
+    fontWeight: '600',
+    fontSize: 14,
+    fontFamily: 'HK Grotesk',
   },
   button: {
-    padding: 10,
+    padding: 16,
   },
   buttonText: {
-    color: '#27ae60',
+    color: 'rgba(0, 123, 255, 1)',
+    fontWeight: '600',
+    fontSize: 16,
+    fontFamily: 'HK Grotesk',
   },
   bottomBar: {
     marginTop: 10,
@@ -70,7 +78,7 @@ export default StyleSheet.create({
   },
   overlayRectangle: {
     position: 'absolute',
-    backgroundColor: 'rgba(0,0,0,0.2)',
+    backgroundColor: 'rgba(0,0,0,0.1)',
     left: 0,
     top: 0,
     bottom: 0,
